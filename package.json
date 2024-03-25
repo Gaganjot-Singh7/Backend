@@ -5,13 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev":"nodemon src index.js"
-
+    "dev": "nodemon src index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "gaganjot singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
 }
